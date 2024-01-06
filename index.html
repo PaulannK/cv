@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+    <meta name="description" content="Paula Knuth's CV - Aspiring English Philology student specializing in NLP.">
+
+    <title>Paula Knuth - CV </title>
+</head>
+<header class="header"></header>
+<body>
+    <div class="container">
+        <div class="header-content">
+            <img src="https://static.vecteezy.com/system/resources/previews/008/442/086/non_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg" alt="User Image" class="user-image">
+            <div class="header-text">
+                <h1>Paula Knuth</h1>
+                <p>Student at the University of Gdańsk.</p>
+            </div>
+        </div>
+
+        <section id="about-me" class="about-me">
+            <h2>About Me</h2>
+            <p>Aspiring English Philology student with a solid foundation in Natural Language Processing (NLP). Currently acquiring practical skills through coursework. Eager to contribute my academic knowledge to real-world applications and excited about the prospect of further learning growth within field.</p>
+        </section>
+
+        <div class="navigation-buttons">
+            <button onclick="scrollToSection('goal')">My goal</button>
+            <button onclick="scrollToSection('experience')">Experience</button>
+            <button onclick="scrollToSection('education')">Education</button>
+            <button onclick="scrollToSection('skills')">Skills</button>
+            <button onclick="scrollToSection('interests')">Interests</button>
+            <button onclick="scrollToSection('contact')">Contact</button>
+        </div>
+
+        <section id="goal" class="goal">
+            <h2>My goal</h2>
+            <p>I am more than willing to further cultivate the skills acquired during my master's studies in the field of NLP to become a specialist in the future. A position in this domain, offering compensation aligned with my abilities, would be a compelling opportunity. I aspire to seek a rewarding career path based on my knowledge and education.</p> 
+        </section>
+
+        <section id="experience" class="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li>
+                    <h3>The University of Gdańsk (Faculty of Social Sciences - Center for Sustainable Development)</h3>
+                    <p>Assistant for Sustainable Development</p>
+                    <p>04/2021 - 06/2021</p>
+                    <p><b>My role involved the following contributions:</b></p>
+                    <ul>
+                        <li>Transcription of interveiws related to sustainable development topics.</li>
+                        <li>Active participation in meetings and creation of reports based on them.</li>
+                        <li>Regular attendance at training sessions, expanding knowledge in the field of sustainable development.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="education" class="education">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <h3><i class="material-icons">school</i> Administration (BA) - Business Administration and Finance speciality</h3>
+                    <p>The University of Gdańsk</p>
+                    <p>09/2019 - 07/2022</p>
+                </li>
+                <li>
+                    <h3> <i class="material-icons">school</i> English Philology (MA) - NLP speciality</h3>
+                    <p>The University of Gdańsk</p>
+                    <p>09/2022 - currently</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+                <li>Python</li>
+                <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+                <li>English (B2)</li>
+            </ul>
+        </section>
+
+        <section id="interests" class="interests">
+            <h2>Interests</h2>
+            <p>My specialization in Natural Language Processing has sparked a keen interest in web development languages. Beyond my academic pursuits, I find joy in photography and have a fascination with the game industry.</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <i class="material-icons" onclick="openEmail()">mail</i>
+        </section>        
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2023 Paula Knuth - CV</p>
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

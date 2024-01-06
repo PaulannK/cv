@@ -1,0 +1,114 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://cdn.hovia.com/app/uploads/beige-watercolour-mountains-wallpaper-mural-Plain-820x532.jpg');
+    color: #5c4033;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 18px;
+}
+
+.header {
+    margin: 20px auto 40px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ece4dc;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.user-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px; 
+}
+
+.header-text {
+    text-align: left;
+    color: #5c4033;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto 40px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.navigation-buttons button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #5c4033;
+    background-color: #af804f;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+section {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+#goal, #experience, #education, #skills, #interests {
+    margin-bottom: 100px;
+}
+
+h1, h2, h3 {
+    color: #644e36;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+    color: #5c4033;
+}
+
+.skills ul {
+    list-style-type: disc;
+    color: #5c4033;
+    padding-left: 8px;
+}
+
+.skills ul li {
+    margin-bottom: 8px;
+    padding: 0;
+}
+
+
+.contact i {
+    cursor: pointer;
+}
+
+.footer {
+    margin: 20px auto 40px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
